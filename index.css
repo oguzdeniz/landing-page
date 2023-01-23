@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Noto Sans;
+  font-family: Roboto, sans-serif;
   box-sizing: border-box;
 }
 
@@ -71,6 +71,7 @@ body {
   border-radius: 3px;
   padding: 4px 12px;
   margin-top: 10px;
+  outline:0pt;
 }
 .hero-left button:hover {
   background: orange;
@@ -179,6 +180,7 @@ body {
   font-size: 9pt;
   font-weight: 700;
   cursor: pointer;
+  outline: transparent;
 }
 .footer-content button:hover {
   background: orange;
