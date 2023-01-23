@@ -43,6 +43,13 @@ body {
   display: flex;
   gap: 1rem;
   font-size: 8pt;
+  cursor: pointer;
+}
+.header-links a:hover {
+  color: orange;
+}
+.header-links a:active {
+  color: yellow;
 }
 
 .hero-content {
